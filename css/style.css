@@ -1,0 +1,385 @@
+html {
+    scroll-behavior: smooth
+
+}
+
+
+*{    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+} 
+
+
+
+h1,h2,h3,h4 {
+    margin: 0px;
+    padding: 0px;
+     
+}
+
+body {
+    background: blanchedalmond;
+    margin: 0px;
+    /* background-color: rgba(214, 117, 61, 0.753); */
+    font-family: 'Poppins', sans-serif
+    
+}
+
+
+.tabela-principal {
+    width: 100%;
+    /* height: 100vh; */
+    border-collapse: collapse;
+   
+}
+
+/*    Inicio cabecalho   */
+.cabecalho {
+    background: black;
+    color: white;
+    height: 200px;
+}
+
+
+/*      Fim cabecalho     */
+
+
+/*  Inico Menu */
+
+.menu {
+    height: 100%;
+    width: 15%; 
+    background:rgb(95, 95, 97);
+    margin-top: 100px;
+    padding: 20px;
+    vertical-align: top;
+    text-align: center;
+    position: fixed;
+    box-sizing: border-box;
+  
+    
+    
+}
+.menu p {
+    margin: 20px;
+}
+
+.menu a {
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.menu a:hover { 
+    text-decoration: underline;
+    font-weight: bold;
+    color: blue;
+}
+
+
+/*     Fim Menu    */
+
+
+/*       Inicio Corpo Site       */
+.corpo-site{
+    margin-left: 10%;
+    margin-right: 5%;
+    padding-left: 10%; 
+    
+    vertical-align: top;
+    width: 85%;
+    
+    
+    
+}
+
+
+.card-box {
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    text-align: justify;
+   
+}
+
+.card-box-p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.card-box-p a {
+    color: blue; 
+    text-decoration: underline;
+}
+
+.computer-card-box {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.computer-card-box p {
+    padding-bottom: 15px;
+}
+
+
+
+.line-texto {
+    padding-top: 30px;
+    margin-left: 10px;
+    text-align: justify;
+    
+}
+.arquivo p {
+    padding: 10px;
+}
+
+.arquivo-gerencia p {
+    padding-top: 20px;
+}
+.arquivo-gerencia ul {
+    padding-bottom: 20px;
+    padding-left: 60px;
+}
+.arquivo-gerencia span {
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+.organize-site ul {
+    padding-left:35px;
+}
+/*       Fim Corpo Site     */
+
+
+/* Inicio formatação de imagens */
+
+
+.card-box-eniac {
+    padding: 60px;
+    text-align: center;
+    
+}
+
+.card-box-eniac img {
+    
+    width: 500px;
+    margin: 10px;
+    
+  
+}
+.card-box-mulh {
+    padding: 60px;
+    text-align: center;
+}
+.card-box-mulh img {
+    width: 600px;
+    
+}
+
+.card-box-imagem {
+    padding: 60px;
+    display: flex;
+}
+
+.card-box-imagem img {
+    width: 450px;
+    height: 450px;
+    padding-top: 30px;
+    
+}
+
+.card-box-operational {
+    padding: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+.card-box-operational img {        
+    width: 600px;
+    
+    
+}
+.navegation-imgem { 
+    padding: 6px;   
+    text-align: center;
+}
+.navegation-imgem img {
+    margin: 30px;
+    width: 600px;
+    
+}
+.img-google {
+    padding-top: 60px;
+    text-align: center;
+}
+.img-google img {
+    width: 900px;
+    height: 150px;
+    
+}
+
+.navegation-img {
+    padding-top: 60px;
+    text-align: center;
+}
+.navegation-img img{
+    width: 700px;
+    
+}
+.video {
+    
+    padding: 60px;
+    text-align: center;
+}
+
+
+
+.card-box-mac {
+    padding-top: 60px;
+    display: flex;   
+}
+
+.card-box-mac img {
+    width: 550px;
+    padding-top: 30px;
+   
+}
+
+.card-box-windows {
+   padding-top: 60px;
+    display: flex;
+    text-align: center;
+}
+
+.card-box-windows img {
+    padding-top:10px ;
+    width: 600px;
+    height: 500px;
+}
+.amazon {
+    padding: 30px;
+    text-align: center;
+    
+    
+}
+.amazon img {
+   
+    width: 700px;
+}
+
+.computer-figura img {
+    padding-left: 30px;
+    margin-top: 20px;
+    width: 450px;
+}
+.computer-figura-5 img {
+    padding-left: 30px;
+    margin-top: 20px;
+    width: 600px;
+    height: 500px;
+}
+
+.computer-figura-6 img {
+    padding-left: 30px;
+    margin-top: 20px;
+    width: 500px;
+    height:550px;
+} 
+
+
+ /* Fim formatação de imagens */
+
+
+
+/*           Incio Titulos          */
+
+.title {
+    text-align: center;
+    margin-top:60px ;
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 35px;
+    text-align: center;
+    margin-top:60px ;
+    margin-bottom: 60px;
+
+}
+
+.coluna p {
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+.coluna ul {
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.title-principal {
+    margin-top: 100px;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+#introduction,
+#operational,
+#navigation,
+#file,
+#security,
+#computer {
+    scroll-margin-top: 50px
+}
+
+.contato {
+    color: white;
+    padding-top:50px;
+    text-align: center;
+    align-items: center;
+}
+
+.contato-mensagem {
+    
+   padding-top: 20px;
+    
+}
+
+.contato-mensagem h4 {
+    font-size: 15px;
+}
+.icons {
+    margin-top: 20px;
+}
+
+.icons i {
+    font-size: 30px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    background: rgb(119, 119, 165); 
+    width: 100%;
+    position: fixed;
+    text-align: center; 
+    height: 100px;
+    margin-bottom: 40px
+    
+}
+
+h2.fill-animation {
+    
+    text-align: center;
+    position: relative;
+    color: white;
+    -webkit-text-stroke: 1px #f8f5f5;
+    text-transform: uppercase;
+    font-size: 60px
+}
+
